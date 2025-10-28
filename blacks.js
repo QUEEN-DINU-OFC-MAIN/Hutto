@@ -4354,7 +4354,7 @@ reply(vaa)
 break;
 
 //========================================================================================================================//		      
-  case "vv": case "ane": case "ade1":{
+  case "vv": case "ane": case "ade":{
 
 if (!m.quoted) return m.reply("quote a viewonce message eh")
 
