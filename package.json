@@ -9,17 +9,19 @@
   },
   "keywords": [
     "termux",
-    "whatsapp-openai",
+    "whatsapp",
     "whatsapp-bot",
-    "whatsapp-baileys",
-    "baileys-md",
-    "bot-wa",
-    "bot-md",
+    "baileys",
     "whatsapp-multi-device"
   ],
-  "base": "https://github.com/DikaArdnt/Hisoka-Morou",
   "author": "Marchant",
   "license": "MIT",
+
+  // ---- IMPORTANT FIX FOR RENDER ---- //
+  "resolutions": {
+    "fill-range": "7.1.1"
+  },
+
   "dependencies": {
     "@whiskeysockets/baileys": "git+https://github.com/McrayNick/Baileys.git",
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -78,16 +80,20 @@
     "yt-search": "^2.12.1",
     "youtube-yts": "^2.0.0"
   },
+
   "directories": {
     "lib": "lib",
     "src": "src"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Blackie254/black-super-bot.git"
   },
+
   "bugs": {
     "url": "https://github.com/Blackie254/black-super-bot/issues"
   },
+
   "homepage": "https://github.com/Blackie254/black-super-bot#readme"
 }
