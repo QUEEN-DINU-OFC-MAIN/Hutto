@@ -7,18 +7,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "termux",
-    "whatsapp",
-    "whatsapp-bot",
-    "baileys",
-    "whatsapp-multi-device"
-  ],
   "author": "Marchant",
   "license": "MIT",
 
   "resolutions": {
-    "fill-range": "7.1.1"
+    "fill-range": "7.1.1",
+    "eslint-plugin-simple-import-sort": "12.0.0"
   },
 
   "dependencies": {
@@ -55,24 +49,13 @@
     "libsignal": "2.0.1",
     "lodash": "^4.17.21",
     "luxon": "^3.4.4",
-    "megajs": "^1.1.0",
     "moment-timezone": "^0.5.34",
     "mumaker": "^2.0.0",
-    "node-catbox": "3.2.0",
     "node-fetch": "^2.6.1",
     "node-fetch-commonjs": "^3.3.2",
     "node-webpmux": "^3.1.5",
     "openai": "^3.1.0",
-    "os": "^0.1.2",
-    "path": "^0.12.7",
-    "performance-now": "^2.1.0",
-    "pino": "^7.0.5",
-    "quickmongo": "^5.2.0",
     "qrcode-terminal": "^0.12.0",
-    "ruhend-scraper": "^8.0.3",
-    "stream": "^0.0.2",
-    "tempmail.lol": "^4.1.0",
-    "util": "^0.12.5",
     "wa-sticker-formatter": "^4.3.2",
     "ytdl-secktor": "^0.0.1-development",
     "ytdl-core": "npm:@distube/ytdl-core",
@@ -80,19 +63,14 @@
     "youtube-yts": "^2.0.0"
   },
 
-  "directories": {
-    "lib": "lib",
-    "src": "src"
+  "devDependencies": {},
+
+  "engines": {
+    "yarn": ">=1.22.22"
   },
 
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Blackie254/black-super-bot.git"
-  },
-
-  "bugs": {
-    "url": "https://github.com/Blackie254/black-super-bot/issues"
-  },
-
-  "homepage": "https://github.com/Blackie254/black-super-bot#readme"
+  "packageManager": "yarn@1.22.22",
+  "yarnConfig": {
+    "ignoreOptional": true
+  }
 }
