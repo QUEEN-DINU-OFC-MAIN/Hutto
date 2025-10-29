@@ -17,7 +17,6 @@
   "author": "Marchant",
   "license": "MIT",
 
-  // ---- IMPORTANT FIX FOR RENDER ---- //
   "resolutions": {
     "fill-range": "7.1.1"
   },
